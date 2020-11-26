@@ -23,6 +23,8 @@ body {
 
 header {
     /* Меню */
+    width: 1200px;
+    /*ширина*/
     min-height: 7%;
     /*мінімальна висота*/
     background-color: white;
@@ -39,6 +41,8 @@ header {
 
 article {
     /*Шапка сайта з зображенням*/
+    width: 1200px;
+    /*ширина*/
     background-color: white;
     /*фоновий колір*/
     opacity: .9;
@@ -55,12 +59,12 @@ article {
 
 footer {
     /*підвал сайту*/
+    width: 1200px;
+    /*ширина*/
     background-color: white;
     /*фоновий колір білий*/
     opacity: .9;
     /*прозорість*/
-    width: 107.35%;
-    /*ширина*/
     clear: both;
     /*скасовуємо обтікання одночасно з лівого і правого краю*/
     text-align: center;
