@@ -1,0 +1,38 @@
+.indentation {
+    top: 10px;
+}
+
+
+#navbar li:hover ul {
+    display: block;
+}
+
+#navbar,
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navbar li {
+    float: left;
+    position: sticky;
+    height: 100%;
+}
+
+#navbar li a {
+    display: block;
+    padding: 6px;
+    color: indigo;
+    text-decoration: none;
+    text-align: center;
+    font-size: 118.9%;
+}
+
+#navbar ul li {
+    float: none;
+}
+
+#navbar li:hover {
+    background-color: #5f77ed;
+}
