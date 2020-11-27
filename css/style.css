@@ -55,6 +55,35 @@ article {
 
 }
 
+div {
+    margin-left: 1.5%;
+    /*відступ від лівого краю*/
+    margin-top: 1em;
+    /*відступ від верхнього краю*/
+    margin-right: 1.5%;
+    /*відступ від правого краю*/
+}
+
+section {
+
+    margin-top: 5px;
+
+}
+
+#video {
+    float: left;
+    width: 590px;
+    height: 330px;
+    border-bottom: 1px solid black;
+}
+
+#nazva {
+    float: left;
+    width: 550px;
+    height: 330px;
+    border-bottom: 1px solid black;
+}
+
 footer {
     /*підвал сайту*/
     width: 1200px;
@@ -108,7 +137,7 @@ h1 {
 
 h2 {
     /*заголовок 2*/
-    font-size: 30px;
+    font-size: 25px;
     /*розмір шрифту*/
     margin-left: 1.5%;
     /*відступ від лівого краю*/
@@ -116,6 +145,21 @@ h2 {
     /*відступ від правого краю*/
     font-style: italic;
     /*стиль шрифту*/
+}
+
+h3 {
+    /*текст*/
+    font-size: 20px;
+    /*розмір шрифту*/
+    margin-top: 1%;
+    /*відступ від верхнього краю*/
+    margin-left: 1.5%;
+    /*відступ від лівого краю*/
+    margin-right: 1.5%;
+    /*відступ від правого краю*/
+    font-style: italic;
+    /*стиль шрифту*/
+
 }
 
 p {
@@ -130,4 +174,8 @@ p {
     /*відступ від правого краю*/
     font-style: italic;
     /*стиль шрифту*/
+}
+
+#text {
+    font-size: 18px;
 }
