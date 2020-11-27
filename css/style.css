@@ -65,23 +65,32 @@ div {
 }
 
 section {
-
     margin-top: 5px;
+    /*відступ зверху*/
 
 }
 
 #video {
+    /*id для section відео*/
     float: left;
+    /*розташування ліворуч*/
     width: 590px;
+    /*ширина*/
     height: 330px;
+    /*висота*/
     border-bottom: 1px solid black;
+    /*рамка знизу*/
 }
 
 #nazva {
     float: left;
+    /*розташування ліворуч*/
     width: 550px;
+    /*ширина*/
     height: 330px;
+    /*висота*/
     border-bottom: 1px solid black;
+    /*рамка знизу*/
 }
 
 footer {
@@ -177,5 +186,7 @@ p {
 }
 
 #text {
+    /* id для "p" тексту*/
     font-size: 18px;
+    /*розмір тексту*/
 }
