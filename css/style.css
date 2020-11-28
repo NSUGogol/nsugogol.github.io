@@ -16,7 +16,7 @@ body {
     background-color: white;
     /*фоновий колір*/
     margin-left: 15%;
-    /*відступ з ліва*/
+    /*відступ зліва*/
 }
 
 header {
@@ -43,8 +43,6 @@ article {
     /*ширина*/
     background-color: white;
     /*фоновий колір*/
-    opacity: .9;
-    /*Прозорість*/
     float: left;
     /*розташування з ліва*/
     overflow: hidden;
@@ -88,6 +86,108 @@ section {
     width: 550px;
     /*ширина*/
     height: 330px;
+    /*висота*/
+    border-bottom: 1px solid black;
+    /*рамка знизу*/
+}
+
+#videoost {
+    /*id для section відео*/
+    float: left;
+    /*розташування ліворуч*/
+    width: 590px;
+    /*ширина*/
+    height: 330px;
+    /*висота*/
+    border-bottom: 2px solid black;
+    /*рамка знизу*/
+    border-left: 2px solid black;
+    /*рамка зліва*/
+    border-top: 2px solid black;
+    /*рамка зверху*/
+
+}
+
+#nazvaost {
+    float: left;
+    /*розташування ліворуч*/
+    width: 550px;
+    /*ширина*/
+    height: 330px;
+    /*висота*/
+    border-bottom: 2px solid black;
+    /*рамка знизу*/
+    border-right: 2px solid black;
+    /*рамка зправа*/
+    border-top: 2px solid black;
+    /*рамка зверху*/
+}
+
+
+#images1 {
+    /*id для section фото на головний сторінці*/
+    float: left;
+    /*розташування ліворуч*/
+    width: 590px;
+    /*ширина*/
+    height: 330px;
+    /*висота*/
+    border-bottom: 1px solid black;
+    /*рамка знизу*/
+}
+
+#images2 {
+    /*id для section фото на головний сторінці*/
+    float: left;
+    /*розташування ліворуч*/
+    width: 550px;
+    /*ширина*/
+    height: 330px;
+    /*висота*/
+    border-bottom: 1px solid black;
+    /*рамка знизу*/
+}
+
+#textmain1 {
+    float: left;
+    /*розташування ліворуч*/
+    width: 550px;
+    /*ширина*/
+    height: 330px;
+    /*висота*/
+    border-bottom: 1px solid black;
+    /*рамка знизу*/
+}
+
+#textmain2 {
+    float: left;
+    /*розташування ліворуч*/
+    width: 590px;
+    /*ширина*/
+    height: 330px;
+    /*висота*/
+    border-bottom: 1px solid black;
+    /*рамка знизу*/
+}
+
+#textmainvstup {
+    float: left;
+    /*розташування ліворуч*/
+    width: 590px;
+    /*ширина*/
+    height: 550px;
+    /*висота*/
+    border-bottom: 1px solid black;
+    /*рамка знизу*/
+}
+
+#imagesvstu {
+    /*id для section фото на головний сторінці*/
+    float: left;
+    /*розташування ліворуч*/
+    width: 550px;
+    /*ширина*/
+    height: 550px;
     /*висота*/
     border-bottom: 1px solid black;
     /*рамка знизу*/
