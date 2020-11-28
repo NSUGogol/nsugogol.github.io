@@ -23,7 +23,7 @@ header {
     /* Меню */
     width: 1200px;
     /*ширина*/
-    min-height: 7%;
+    min-height: 50px;
     /*мінімальна висота*/
     background-color: white;
     /* колір фону*/
@@ -47,7 +47,7 @@ article {
     /*розташування з ліва*/
     overflow: hidden;
     /*відображення блову тільки всередині елемента, інше буде скрито*/
-    margin-top: 4.3%;
+    margin-top: 53px;
     /*відступ з верху*/
 
 

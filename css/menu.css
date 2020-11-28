@@ -36,3 +36,7 @@
 #navbar li:hover {
     background-color: #5f77ed;
 }
+
+#tab_active {
+    background-color: #5f77ed;
+}
