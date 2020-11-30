@@ -8,6 +8,7 @@
          console.log('рез' + str);
 
          if ((str.indexOf('головна') >= 0) || (str.indexOf('головна') >= 0)) div_show("головна")
+         if ((str.indexOf('головну') >= 0) || (str.indexOf('головну') >= 0)) div_show("головну")
          /*перехід на головну*/
          if ((str.indexOf('офіційний сайт') >= 0) || (str.indexOf('офіційний сайт') >= 0)) div_show("офіційний сайт")
          if ((str.indexOf('сайт undo') >= 0) || (str.indexOf('сайт undo') >= 0)) div_show("сайт undo")
@@ -69,6 +70,7 @@
          if ((str.indexOf('факультети') >= 0) || (str.indexOf('факультети') >= 0)) div_show("факультети")
          if ((str.indexOf('років') >= 0) || (str.indexOf('років') >= 0)) div_show("років")
          if ((str.indexOf('рейтингу') >= 0) || (str.indexOf('рейтингу') >= 0)) div_show("рейтингу")
+         /*Запитання сайту*/
 
 
 
@@ -87,6 +89,9 @@
 
      switch (num) {
          case "головна":
+             location.href = "index.html"
+             break;
+         case "головну":
              location.href = "index.html"
              break;
              /*перехід на головну*/
@@ -244,6 +249,7 @@
          case "рейтингу":
              alert('121 місце цього року;\n 173 місце в 2019 році')
              break;
+             /*Запитання сайту*/
 
      }
  }
