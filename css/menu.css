@@ -31,12 +31,14 @@
 
 #navbar ul li {
     float: none;
+
 }
 
 #navbar li:hover {
-    background-color: #5f77ed;
+    background-color: #87CEFA;
+
 }
 
 #tab_active {
-    background-color: #5f77ed;
+    background-color: #1E90FF;
 }
