@@ -15,8 +15,8 @@ body {
     /*розмір фона 100%*/
     background-color: white;
     /*фоновий колір*/
-    margin-left: 15%;
-    /*відступ зліва*/
+    margin-left: 15%
+        /*відступ зліва*/
 }
 
 header {
@@ -47,7 +47,7 @@ article {
     /*розташування з ліва*/
     overflow: hidden;
     /*відображення блову тільки всередині елемента, інше буде скрито*/
-    margin-top: 53px;
+    margin-top: 37px;
     /*відступ з верху*/
 
 
@@ -62,11 +62,7 @@ div {
     /*відступ від правого краю*/
 }
 
-section {
-    margin-top: 5px;
-    /*відступ зверху*/
-
-}
+section {}
 
 #video {
     /*id для section відео*/
@@ -78,6 +74,8 @@ section {
     /*висота*/
     border-bottom: 1px solid black;
     /*рамка знизу*/
+    margin-top: 5px;
+    /*відступ зверху*/
 }
 
 #nazva {
@@ -89,6 +87,8 @@ section {
     /*висота*/
     border-bottom: 1px solid black;
     /*рамка знизу*/
+    margin-top: 5px;
+    /*відступ зверху*/
 }
 
 #videoost {
@@ -105,6 +105,8 @@ section {
     /*рамка зліва*/
     border-top: 2px solid black;
     /*рамка зверху*/
+    margin-top: 5px;
+    /*відступ зверху*/
 
 }
 
@@ -121,6 +123,8 @@ section {
     /*рамка зправа*/
     border-top: 2px solid black;
     /*рамка зверху*/
+    margin-top: 5px;
+    /*відступ зверху*/
 }
 
 
@@ -134,6 +138,8 @@ section {
     /*висота*/
     border-bottom: 1px solid black;
     /*рамка знизу*/
+    margin-top: 5px;
+    /*відступ зверху*/
 }
 
 #images2 {
@@ -146,6 +152,8 @@ section {
     /*висота*/
     border-bottom: 1px solid black;
     /*рамка знизу*/
+    margin-top: 5px;
+    /*відступ зверху*/
 }
 
 #textmain1 {
@@ -157,6 +165,8 @@ section {
     /*висота*/
     border-bottom: 1px solid black;
     /*рамка знизу*/
+    margin-top: 5px;
+    /*відступ зверху*/
 }
 
 #textmain2 {
@@ -168,6 +178,8 @@ section {
     /*висота*/
     border-bottom: 1px solid black;
     /*рамка знизу*/
+    margin-top: 5px;
+    /*відступ зверху*/
 }
 
 #textmainvstup {
@@ -179,6 +191,8 @@ section {
     /*висота*/
     border-bottom: 1px solid black;
     /*рамка знизу*/
+    margin-top: 5px;
+    /*відступ зверху*/
 }
 
 #imagesvstu {
@@ -191,6 +205,8 @@ section {
     /*висота*/
     border-bottom: 1px solid black;
     /*рамка знизу*/
+    margin-top: 5px;
+    /*відступ зверху*/
 }
 
 footer {
@@ -199,14 +215,54 @@ footer {
     /*ширина*/
     background-color: white;
     /*фоновий колір білий*/
-    opacity: .9;
-    /*прозорість*/
-    clear: both;
-    /*скасовуємо обтікання одночасно з лівого і правого краю*/
-    text-align: center;
-    /*розташування тексту по центру*/
+    text-align: left;
+    /*розташування тексту зліва*/
     margin-bottom: 1%;
     /*відступ від нижнього краю*/
+
+
+}
+
+#footer1 {
+    /*підвал сайту секція 1*/
+    width: 400px;
+    /*ширина*/
+    background-color: white;
+    /*фоновий колір білий*/
+    float: left;
+    /*розташування ліворуч*/
+    margin-bottom: 1%;
+    /*відступ від нижнього краю*/
+
+}
+
+#footer2 {
+    /*підвал сайту секція 2*/
+    width: 400px;
+    /*ширина*/
+    height: 200px;
+    background-color: white;
+    /*фоновий колір білий*/
+    float: left;
+    /*розташування ліворуч*/
+    margin-bottom: 1%;
+    /*відступ від нижнього краю*/
+
+}
+
+#znak {
+    /*значки соц.мереж у footer*/
+    width: 64px;
+    /*ширина*/
+    float: left;
+    /*розташування ліворуч*/
+}
+
+#displayed {
+    /*розташування значків соц.мереж по центру*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
@@ -285,8 +341,45 @@ p {
     /*стиль шрифту*/
 }
 
+#textfooter {
+    /*текст в footer*/
+    font-size: 20px;
+    margin-left: 5.5%;
+    /*відступ від лівого краю*/
+    margin-top: 1.5%;
+    /*відступ від верхнього краю*/
+
+
+}
+
+#textfootermer {
+    /*текст в footer*/
+    font-size: 15px;
+    margin-left: 5.5%;
+    /*відступ від лівого краю*/
+    margin-top: 1.5%;
+    /*відступ від верхнього краю*/
+}
+
+#textfootercentr {
+    /*текст в footer заголовки*/
+    font-size: 20px;
+    margin-left: 5.5%;
+    /*відступ від лівого краю*/
+    margin-top: 1.5%;
+    /*відступ від верхнього краю*/
+    text-align: center;
+    /*розташування тексту по центру*/
+
+}
+
 #text {
     /* id для "p" тексту*/
     font-size: 18px;
     /*розмір тексту*/
+}
+
+a {
+    text-decoration: none;
+    /* Отменяем подчеркивание у ссылки */
 }
